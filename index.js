@@ -57,7 +57,7 @@ app.post('/message', async function (req, res) {
                 <div>${textName}</div>
                 <div>${email}</div>
                 <div>${textSubject}</div>
-                <div>${message}</div>
+                <div>${message}!</div>
 `
     });
 
