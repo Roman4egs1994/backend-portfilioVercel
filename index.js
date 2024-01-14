@@ -49,7 +49,7 @@ app.post('/message', async function (req, res) {
     // console.log('textName c index.js',textName)
     let info = await transporter.sendMail({
         from: 'HR WANTS ME', // sender address
-        to: "romanmoisidi@gmail.com", // list of receivers
+        to: "moisidiroman@gmail.com", // list of receivers
         // to: "r.rybkin94@gmail.com", // list of receivers
         subject: "Hello ✔", // Subject line
         //text: "Hello world?", // plain text body
